@@ -7,7 +7,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Slow left-arm orthodox",
     "price": 75000,
-    "playerImg": "https://example.com/images/shakib.jpg"
+    "playerImg": "https://i.ibb.co/LDPF5Bs0/shakib.jpg"
   },
   {
     "playerName": "Tamim Iqbal",
@@ -17,7 +17,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "None",
     "price": 60000,
-    "playerImg": "https://example.com/images/tamim.jpg"
+    "playerImg": "https://i.ibb.co/rRXjNhyg/Tamim-Iqbal.jpg"
   },
   {
     "playerName": "Andre Russell",
@@ -27,7 +27,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
     "price": 90000,
-    "playerImg": "https://example.com/images/russell.jpg"
+    "playerImg": "https://i.ibb.co/Mkzx4PfY/Andre-Russell.jpg"
   },
   {
     "playerName": "Faf du Plessis",
@@ -37,7 +37,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm leg spin",
     "price": 70000,
-    "playerImg": "https://example.com/images/faf.jpg"
+    "playerImg": "https://i.ibb.co/nNvmh75L/Faf-du-Plessis.jpg"
   },
   {
     "playerName": "Rashid Khan",
@@ -47,7 +47,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm leg spin",
     "price": 85000,
-    "playerImg": "https://example.com/images/rashid.jpg"
+    "playerImg": "https://i.ibb.co/k64BLDN9/Rashid-Khan.jpg"
   },
   {
     "playerName": "Litton Das",
@@ -57,7 +57,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "None",
     "price": 50000,
-    "playerImg": "https://example.com/images/litton.jpg"
+    "playerImg": "https://i.ibb.co/GQyczdVL/Litton-Das.jpg"
   },
   {
     "playerName": "Mustafizur Rahman",
@@ -67,6 +67,6 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
     "price": 65000,
-    "playerImg": "https://example.com/images/mustafiz.jpg"
+    "playerImg": "https://i.ibb.co/Lddr4FVg/Mustafizur-Rahman.jpg"
   }
 ]

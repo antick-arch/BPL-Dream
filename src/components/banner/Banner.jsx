@@ -10,7 +10,6 @@ const Banner = () => {
       `url(${bannerBg})`,
   }}
 >
- 
   <div className="hero-content text-neutral-content text-center">
     <div className="space-y-6">
       <img className='place-self-center' src={bannerLogo} alt="bannerLogo" />

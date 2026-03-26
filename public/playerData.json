@@ -1,0 +1,72 @@
+[
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-Rounder",
+    "rating": 9.8,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 75000,
+    "playerImg": "https://example.com/images/shakib.jpg"
+  },
+  {
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playerType": "Batsman",
+    "rating": 9.2,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "None",
+    "price": 60000,
+    "playerImg": "https://example.com/images/tamim.jpg"
+  },
+  {
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerType": "All-Rounder",
+    "rating": 9.7,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 90000,
+    "playerImg": "https://example.com/images/russell.jpg"
+  },
+  {
+    "playerName": "Faf du Plessis",
+    "playerCountry": "South Africa",
+    "playerType": "Batsman",
+    "rating": 9.0,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg spin",
+    "price": 70000,
+    "playerImg": "https://example.com/images/faf.jpg"
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerType": "Bowler",
+    "rating": 9.6,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg spin",
+    "price": 85000,
+    "playerImg": "https://example.com/images/rashid.jpg"
+  },
+  {
+    "playerName": "Litton Das",
+    "playerCountry": "Bangladesh",
+    "playerType": "Wicketkeeper-Batsman",
+    "rating": 8.9,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 50000,
+    "playerImg": "https://example.com/images/litton.jpg"
+  },
+  {
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playerType": "Bowler",
+    "rating": 9.1,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": 65000,
+    "playerImg": "https://example.com/images/mustafiz.jpg"
+  }
+]

@@ -5,7 +5,7 @@ import navLogo from '../../assets/logo.png'
 const Navbar = ({ fetchPlayerPromise }) => {
     const playerData = use(fetchPlayerPromise).data;
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar">
             <div className="flex-1">
                 <img src={navLogo} alt="nav_logo" />
             </div>

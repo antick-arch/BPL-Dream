@@ -19,7 +19,7 @@ const AvailablePlayers = ({ fetchPlayerPromise, coin, setCoin }) => {
 
             {selectedType === 'available'?
             (<Players playerData={playerData} coin={coin} setCoin={setCoin} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></Players>):
-            (<SelectPage selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></SelectPage>)}
+            (<SelectPage selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} coin={coin} setCoin={setCoin}></SelectPage>)}
         </div>
     );
 };

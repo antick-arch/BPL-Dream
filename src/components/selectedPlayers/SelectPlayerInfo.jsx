@@ -1,12 +1,13 @@
 import { Trash2 } from 'lucide-react';
 import React from 'react';
+import { toast } from 'react-toastify';
 
-const SelectPlayerInfo = ({player,selectedPlayers,setSelectedPlayers}) => {
+const SelectPlayerInfo = ({player,selectedPlayers,setSelectedPlayers,coin, setCoin}) => {
     const deletePlayerHandler = (player)=>{
-        console.log("selected",selectedPlayers);
         const filteredPlayers = selectedPlayers.filter((deletePlayer) => deletePlayer.playerName !== player.playerName);
-        console.log("filter",filteredPlayers);
         setSelectedPlayers(filteredPlayers);
+        setCoin(coin+player.price);
+        toast.info(`${player.playerName} player remove successfully & ${player.price} coin added`);
     }
     return (
         <div className='flex justify-between items-center my-5'>

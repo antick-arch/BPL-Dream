@@ -1,6 +1,6 @@
 import navDoller from '../../assets/dollar_1.png'
 import navLogo from '../../assets/logo.png'
-const Navbar = () => {
+const Navbar = ({coin}) => {
 
     return (
         <div className="navbar">
@@ -9,7 +9,7 @@ const Navbar = () => {
             </div>
             <div className="">
                 <button className="btn bg-white rounded-lg flex justify-between gap-2">
-                    <span className='text-[1rem] font-bold'>0 Coin</span>
+                    <span className='text-[1rem] font-bold'>{coin} Coin</span>
                     <img src={navDoller} alt="doller_logo" />
                 </button>
             </div>

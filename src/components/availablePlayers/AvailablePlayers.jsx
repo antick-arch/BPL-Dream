@@ -1,9 +1,11 @@
 import { use, useState } from 'react';
 import Card from '../card/Card';
 import SelectedPlayers from '../selectedPlayers/selectedPlayers';
-const AvailablePlayers = ({ fetchPlayerPromise }) => {
+import Players from './Players';
+const AvailablePlayers = ({ fetchPlayerPromise, coin, setCoin }) => {
     const playerData = use(fetchPlayerPromise).data;
     const [selectedType, setSelectedType] = useState('available');
+    const [selectedPlayers,setSelectedPlayers] = useState([]);
     return (
         <div>
             <div className='flex items-center justify-between my-6'>
@@ -15,7 +17,8 @@ const AvailablePlayers = ({ fetchPlayerPromise }) => {
             </div>
 
 
-            {selectedType === 'available'?(<Card playerData={playerData}></Card>):(<SelectedPlayers></SelectedPlayers>)}
+            {selectedType === 'available'?
+            (<Players playerData={playerData} coin={coin} setCoin={setCoin} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></Players>):(<SelectedPlayers selectedPlayers={selectedPlayers}></SelectedPlayers>)}
         </div>
     );
 };

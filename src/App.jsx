@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Banner from './components/banner/Banner';
 import AvailablePlayers from './components/availablePlayers/AvailablePlayers';
 import { Suspense, useState } from 'react';
+import { ToastContainer } from 'react-toastify';
 
 const fetchPlayerPromise = axios.get('playerData.json');
 function App() {
@@ -25,6 +26,7 @@ function App() {
       </Suspense>
     </section>
     </main>
+    <ToastContainer />
     </>
   )
 }

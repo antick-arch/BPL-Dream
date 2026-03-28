@@ -1,5 +1,6 @@
 import { CircleUserRound, Flag } from 'lucide-react';
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Card = ({playerInfo, coin, setCoin, selectedPlayers, setSelectedPlayers}) => {
   const[isSelected, setIsSelected] = useState(false);
@@ -9,10 +10,10 @@ const Card = ({playerInfo, coin, setCoin, selectedPlayers, setSelectedPlayers}) 
       setCoin(newCoin);
     }
     else{
-      alert("Not enough coin");
+      toast.error("Not enough coin");
       return;
     }
-    alert(`${playerInfo.playerName} is selected`);
+    toast.success(`${playerInfo.playerName} is selected`);
     setIsSelected(true);
     setSelectedPlayers([...selectedPlayers,playerInfo])
   }

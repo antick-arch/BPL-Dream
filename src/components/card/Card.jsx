@@ -4,16 +4,17 @@ import React, { useState } from 'react';
 const Card = ({playerInfo, coin, setCoin, selectedPlayers, setSelectedPlayers}) => {
   const[isSelected, setIsSelected] = useState(false);
   const cardBtn = () =>{
-    setIsSelected(true);
-    const newCoin = coin - playerInfo.price;
+    let newCoin = coin - playerInfo.price;
     if(newCoin >= 0){
-      alert(`${playerInfo.playerName} is selected`);
       setCoin(newCoin);
     }
     else{
       alert("Not enough coin");
       return;
     }
+    alert(`${playerInfo.playerName} is selected`);
+    setIsSelected(true);
+    setSelectedPlayers([...selectedPlayers,playerInfo])
   }
   return (
         <div className="card bg-base-100 shadow-sm">

@@ -2,7 +2,6 @@ A dynamic and interactive web application where users can assemble their ultimat
 
 **Features**
 
-Free Credits: Users can claim free coins to start building their team.
 
 Player Selection: Choose from a pool of world-class players with different roles (Batsman, Bowler, All-Rounder).
 

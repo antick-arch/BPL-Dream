@@ -7,7 +7,7 @@ Player Selection: Choose from a pool of world-class players with different roles
 
 Real-time Budgeting: Automatically deducts coins when a player is selected and refunds them when a player is removed.
 
-Validation Logic: * Prevents selecting the same player twice.
+Validation Logic: Prevents selecting the same player twice.
 
 Ensures users have enough balance before purchasing.
 
